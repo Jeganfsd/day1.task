@@ -1,0 +1,28 @@
+2.Write a blog about objects and its internal representation in Javascript?
+
+*Objects are important in javascript.
+*Objects are different than primitive datatypes.
+*Primitive data types contain one value but Objects can hold many values in form of Key & value pair. 
+*These keys can be variables or functions and methods.
+
+Internal Representation:
+
+*Window.document
+*Document gets loaded into Window Object
+
+examples of How we can use,
+
+var details = new Object(); //this will create a new object
+
+details.name = "fabian";
+
+details.age = 21;
+
+details.gender = "male";
+
+Can be accessed by,
+
+dot method:
+console.log(details.name)//output:fabian
+map method:
+console.log(details[name])//output:fabian
